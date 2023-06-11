@@ -1,0 +1,410 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1280px;
+    overflow-x: hidden;
+    background: #171717;
+}
+header{
+    position: absolute;
+    width: 600px;
+    height: 59px;
+    left: 440px;
+    top: 50px;
+}
+.line1{
+    position: absolute;
+    bottom: 37px;
+    width: 600px;
+    height: 0px;
+    border: 0.5px solid #FFFFFF;
+}
+.line2{
+    position: absolute;
+    top: 37px;
+    width: 600px;
+    height: 0px;
+    border: 0.5px solid #FFFFFF;
+}
+.headerList{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+.headerItem{
+    margin-right: 85px;
+    margin-left: 37px;
+    text-transform: uppercase;
+}
+.headerItem:last-child{
+    margin-right: 0;
+}
+.headerLink{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-decoration: none; //убирает подчеркивание
+}
+.ashka{
+    margin-left: -30px;
+    background: linear-gradient(180deg, #FBA3A3 0%, rgba(251, 163, 163, 0.916667) 8.33%, rgba(251, 163, 163, 0) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+.headerLink:hover, .headerLink:focus, .headerLink:active{
+    opacity: 55%;
+    color: #FBA3A3;
+}
+.headerNav{
+    position: absolute;
+    top: 20px;
+}
+/* -------------------header */
+main{
+    min-height: 100vh;
+    min-width: 100vw;
+}
+.reviews{
+    font-family: 'Italiana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 82px;
+    color: #FFFFFF;
+    margin-top: 189px;
+    text-align: center;
+}
+.ocenka{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 77px;
+    color: #FFFFFF;
+    position: absolute;
+    width: 101px;
+    height: 77px;
+    left: 180px;
+    top: 320px;
+}
+.star{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 1px;
+    position: absolute;
+    width: 114px;
+    height: 22px;
+    left: 301px;
+    top: 337px;
+    background-image: url(img/star.svg);
+}
+.otz{
+    position: absolute;
+    width: 105px;
+    height: 22px;
+    left: 305px;
+    top: 364px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+
+.hranileshe{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1100px;
+    height: 565px;
+    margin: auto;
+    margin-top: 248px;
+}
+
+.boxReviews1{
+    width: 455px;
+    height: 565px;
+    background: linear-gradient(131.76deg, #222222 16.09%, #101010 58.91%);
+    box-shadow: inset 15px 15px 40px rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+}
+.boxReviews2{
+    width: 455px;
+    height: 565px;
+    background: linear-gradient(131.76deg, #222222 16.09%, #101010 58.91%);
+    box-shadow: inset 15px 15px 40px rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+    margin-left: 160px;
+}
+.boxReviews3{
+    margin: auto;
+    margin-top: 160px;
+    width: 900px;
+    height: 455px;
+    background: linear-gradient(105.51deg, #222222 12.34%, #101010 55.23%);
+    box-shadow: inset 15px 15px 40px rgba(0, 0, 0, 0.6);
+    border-radius: 20px
+}
+.knopka{
+    width: 260px;
+    height: 80px;
+    margin: auto;
+    background: linear-gradient(131.76deg, #222222 16.09%, #101010 58.91%);
+    box-shadow: inset 15px 15px 40px rgba(0, 0, 0, 0.6);
+    border-radius: 40px;
+    margin-top: 90px;
+    padding-top: 26px;
+    padding-left: 51px;
+}
+.aknopka{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.icon{
+    width: 60px;
+    height: 60px;
+    margin-top: 100px;
+    border-radius: 50%;
+    background: #1B1A1A;
+    border: 0.5px solid #000000;
+}
+.icon3{
+    width: 60px;
+    height: 60px;
+    margin-top: 48px;
+    margin-left: =-99px;
+    border-radius: 50%;
+    background: #1B1A1A;
+    border: 0.5px solid #000000;
+}
+
+.storage{
+    margin: auto;
+}
+
+.iconP{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.storage{
+    width: 278px;
+    height: 354px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.storage2{
+    width: 295px;
+    height: 338px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.storage3{
+    width: 702px;
+    height: 371px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.name{
+    margin-top: 105px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    margin-left: 20px;
+    color: #FFFFFF;
+}
+.name3{
+    margin-top: 48px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    margin-left: 20px;
+    color: #FFFFFF;
+}
+.star1{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 1px;
+    margin-top: -20px;
+    width: 114px;
+    height: 22px;
+    background-image: url(img/star.svg);
+    margin-left: 78px;
+}
+.star3{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 1px;
+    margin-top: 83px;
+    width: 114px;
+    height: 22px;
+    background-image: url(img/star.svg);
+    margin-left: -88px;
+}
+
+.data{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-left: 10px;
+    margin-top: -20px;
+}
+.data2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-left: 10px;
+    margin-top: -20px;
+}
+.data3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-left: 10px;
+    margin-top: 83px;
+}
+
+
+.osnova{
+    width: 702px;
+    height: 288px;
+    margin-top: 60px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.osnova2{
+    width: 278px;
+    height: 233px;
+    margin-top: 70px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.osnova3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-top: 48px;
+}
+
+/* ----------- */
+
+footer{
+    margin-top: 90px;
+    min-width: 100vw;
+    min-height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-image: url(img/footer.jpg);
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+
+}
+
+.iconsLogo{
+    width: 60px;
+    height: 60px;
+    margin-top: 120px;
+    background-position: center;
+    background-size: cover;
+}
+.instagram{
+    background-image: url(img/instagram.svg);
+}
+.wk{
+    background-image: url(img/wk.svg);
+}
+.facebook{
+    background-image: url(img/facebook.svg);
+}
+.telegram{
+    background-image: url(img/telegram.svg);
+}
+
+.contacs{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 80px;
+    gap: 13px;
+    width: 241px;
+    height: 32px;
+    left: calc(50% - 241px/2 + 0.5px);
+}
+
+.telephone{
+    width: 28px;
+    height: 28px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(img/telephone.svg);
+}
+
+.nomer{
+    width: 196px;
+    height: 32px;
+    color: #FFFFFF;
+    font-family: 'Cinzel Decorative';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+}
+

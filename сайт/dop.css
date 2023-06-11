@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1280px;
+    overflow-x: hidden;
+    background: #171717;
+}
+main{
+    width: 386px;
+    height: 542px;
+    display: flex;
+    flex-wrap: wrap;
+   margin-left: 577px;
+}
+.smileImg{
+    width: 326px;
+    height: 337px;
+    margin-top: 80px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(img/oblom.png);
+}
+
+.smileText{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 20px;
+    font-size: 128px;
+    color: #FFFFFF;
+}
+
+.knopka{
+    position: absolute;
+    width: 200px;
+    height: 60px;
+    left: calc(50% - 250px/2 - 515px);
+    top: 660px;
+    background: linear-gradient(131.76deg, #222222 16.09%, #101010 58.91%);
+    box-shadow: inset 15px 15px 40px rgba(0, 0, 0, 0.6);
+    border-radius: 40px;
+    padding-top: 16px;
+    padding-left: 65px;
+}
+
+.aknopka{
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}

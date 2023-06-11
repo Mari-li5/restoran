@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #171717;
+    max-width: 1280px;
+    overflow-x: hidden;
+}
+header{
+    position: absolute;
+    width: 600px;
+    height: 59px;
+    left: 440px;
+    top: 50px;
+}
+.line1{
+    position: absolute;
+    bottom: 37px;
+    width: 600px;
+    height: 0px;
+    border: 0.5px solid #FFFFFF;
+}
+.line2{
+    position: absolute;
+    top: 37px;
+    width: 600px;
+    height: 0px;
+    border: 0.5px solid #FFFFFF;
+}
+.headerList{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+.headerItem{
+    margin-right: 85px;
+    margin-left: 37px;
+    text-transform: uppercase;
+}
+.headerItem:last-child{
+    margin-right: 0;
+}
+.headerLink{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-decoration: none; //убирает подчеркивание
+}
+.ashka{
+    margin-left: -30px;
+    background: linear-gradient(180deg, #FBA3A3 0%, rgba(251, 163, 163, 0.916667) 8.33%, rgba(251, 163, 163, 0) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+.headerLink:hover, .headerLink:focus, .headerLink:active{
+    opacity: 55%;
+    color: #FBA3A3;
+}
+.headerNav{
+    position: absolute;
+    top: 20px;
+}
+/* -------------------header */
+
+main{
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.classMenu{
+    font-family: 'Italiana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 82px;
+    margin-top: 189px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 100%;
+}
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.nama{
+    justify-content: center;
+    margin-top: 170px;
+    width: 445px;
+    height: 580px;
+    background-position: center;
+    background-size: cover;
+    filter: drop-shadow(15px 15px 30px rgba(0, 0, 0, 0.45));
+    border-radius: 15px;
+}
+
+
+.nama1{
+    background-image: url(img/menu1.jpg);
+}
+.nama2{
+    margin-left: 120px;
+    background-image: url(img/menu2.jpg);
+}
+.nama3{
+    background-image: url(img/menu3.jpg);
+}
+.nama4{
+    margin-left: 120px;
+    background-image: url(img/menu4.jpg);
+}
+.nama5{
+    background-image: url(img/menu5.jpg);
+}
+.nama6{
+    margin-left: 120px;
+    background-image: url(img/menu6.jpg);
+}
+.nama7{
+    background-image: url(img/menu7.jpg);
+}
+.nama8{
+    margin-left: 120px;
+    background-image: url(img/menu8.jpg);
+} 
+
+.naz{
+    width: 100%;
+    height: 44px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.pNaz{
+    margin-top: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFFFF;
+        box-sizing: border-box;
+}
+
+.pNaz1{
+    margin-left: 446px;
+}
+.pNaz2{
+    margin-left: 374px;
+}
+.pNaz3{
+    margin-left: 405px;
+}
+.pNaz4{
+    margin-left: 400px;
+
+}
+
+
+
+/* ---------- */
+
+footer{
+    margin-top: 180px;
+    min-width: 100vw;
+    min-height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-image: url(img/footer.jpg);
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+
+}
+
+.iconsLogo{
+    width: 60px;
+    height: 60px;
+    margin-top: 120px;
+    background-position: center;
+    background-size: cover;
+}
+.instagram{
+    background-image: url(img/instagram.svg);
+}
+.wk{
+    background-image: url(img/wk.svg);
+}
+.facebook{
+    background-image: url(img/facebook.svg);
+}
+.telegram{
+    background-image: url(img/telegram.svg);
+}
+
+.contacs{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 80px;
+    gap: 13px;
+    width: 241px;
+    height: 32px;
+    left: calc(50% - 241px/2 + 0.5px);
+}
+
+.telephone{
+    width: 28px;
+    height: 28px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(img/telephone.svg);
+}
+
+.nomer{
+    width: 196px;
+    height: 32px;
+    color: #FFFFFF;
+    font-family: 'Cinzel Decorative';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+}

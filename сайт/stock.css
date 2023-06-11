@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1280px;
+    overflow-x: hidden;
+    background: #171717;
+}
+header{
+    position: absolute;
+    width: 600px;
+    height: 59px;
+    left: 440px;
+    top: 50px;
+}
+.line1{
+    position: absolute;
+    bottom: 37px;
+    width: 600px;
+    height: 0px;
+    border: 0.5px solid #FFFFFF;
+}
+.line2{
+    position: absolute;
+    top: 37px;
+    width: 600px;
+    height: 0px;
+    border: 0.5px solid #FFFFFF;
+}
+.headerList{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+.headerItem{
+    margin-right: 85px;
+    margin-left: 37px;
+    text-transform: uppercase;
+}
+.headerItem:last-child{
+    margin-right: 0;
+}
+.headerLink{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-decoration: none; //убирает подчеркивание
+}
+.ashka{
+    margin-left: -30px;
+    background: linear-gradient(180deg, #FBA3A3 0%, rgba(251, 163, 163, 0.916667) 8.33%, rgba(251, 163, 163, 0) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+.headerLink:hover, .headerLink:focus, .headerLink:active{
+    opacity: 55%;
+    color: #FBA3A3;
+}
+.headerNav{
+    position: absolute;
+    top: 20px;
+}
+/* -------------------header */
+
+.stock{
+    min-height: 100vh;
+    min-width: 100vw;
+}
+.h2S{
+    text-align: center;
+    margin-top: 189px;
+    font-family: 'Italiana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 82px;
+    color: #FFFFFF;
+}
+
+.blockStock{
+    box-sizing: border-box;
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+    background: linear-gradient(236.74deg, #222222 6.06%, #101010 58.84%);
+    box-shadow: inset 15px 15px 40px rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+    margin-top: 150px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.photoSt{
+    width: 379px;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 29px 0px 0px 20px;
+}
+
+.phSt1{
+    background-image: url(img/stock1.jpg);
+}
+.phSt2{
+    background-image: url(img/stock2.jpg);
+}
+.phSt3{
+    background-image: url(img/stock3.jpg);
+}
+
+.stockZagolovok{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFFFF;
+    margin-top: 50px;
+}
+
+.stZ1{
+    margin-left: 164px;
+}
+.stZ2{
+    margin-left: 179px;
+}
+.stZ3{
+    margin-left: 135px;
+}
+
+.srorageStock{
+    display: flex;
+    flex-wrap: wrap;
+}
+.stockText{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 396px;
+    height: 48px;
+    margin-top: 144px;
+    margin-left: 113px;
+}
+
+.surpris{
+    background-image: url(img/surpris.svg);
+    width: 30px;
+    height: 30px;
+    background-position: center;
+    background-size: cover;
+    margin-left: 351.5px;
+    margin-top: -24px;
+}
+
+.serce{
+    background-image: url(img/serce.svg);
+    background-position: center;
+    background-size: cover;
+    width: 35px;
+    height: 30px;
+    margin-top: 144px;
+    margin-left: 294px;
+}
+
+
+/* ----------- */
+
+footer{
+    margin-top: 150px;
+    min-width: 100vw;
+    min-height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-image: url(img/footer.jpg);
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+
+}
+
+.iconsLogo{
+    width: 60px;
+    height: 60px;
+    margin-top: 120px;
+    background-position: center;
+    background-size: cover;
+}
+.instagram{
+    background-image: url(img/instagram.svg);
+}
+.wk{
+    background-image: url(img/wk.svg);
+}
+.facebook{
+    background-image: url(img/facebook.svg);
+}
+.telegram{
+    background-image: url(img/telegram.svg);
+}
+
+.contacs{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 80px;
+    gap: 13px;
+    width: 241px;
+    height: 32px;
+    left: calc(50% - 241px/2 + 0.5px);
+}
+
+.telephone{
+    width: 28px;
+    height: 28px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(img/telephone.svg);
+}
+
+.nomer{
+    width: 196px;
+    height: 32px;
+    color: #FFFFFF;
+    font-family: 'Cinzel Decorative';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+}
+
