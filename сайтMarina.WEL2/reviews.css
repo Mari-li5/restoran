@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.no-scroll {
+    overflow-y: hidden;
+}
+
+body{
+    background: radial-gradient(circle at 40% 30%, #3b2313 0%, #1a0f08 100%);
+    color: #fef9e6;
+    text-align: center;
+    overflow-x: hidden;
+}
+header{
+    position: absolute;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    top: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerList{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+.headerItem{
+    margin-right: 85px;
+    margin-left: 37px;
+    text-transform: uppercase;
+}
+.headerItem:last-child{
+    margin-right: 0;
+}
+.headerLink{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #DEB887;
+    text-decoration: none; /* убирает подчеркивание */
+}
+.ashka{
+    margin-left: -30px;
+    background: linear-gradient(180deg, #e39090 0%, rgba(234, 153, 153, 0.917) 8.33%, rgba(251, 150, 153, 0) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+.headerLink:hover, .headerLink:focus, .headerLink:active{
+    opacity: 55%;
+    color: #FBA3A3;
+}
+
+/* -------------------header */
+/* Заголовки */
+.reviews-section h1 {
+    font-size: 3rem;
+    color: #f1d6a1;
+    text-shadow: 0 0 15px rgba(241,214,161,0.3);
+    margin-top: 120px;
+  }
+  .subtitle {
+    color: #e3d5b1;
+    margin-bottom: 60px;
+    font-size: 1.1rem;
+    margin-top: 20px;
+  }
+   
+  /* Сетка отзывов */
+  .reviews-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 40px;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 100px;
+  }
+   
+  /* Карточки */
+  .review-card {
+    background: rgba(255,255,255,0.05);
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 4px 25px rgba(0,0,0,0.4);
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    position: relative;
+  }
+  .review-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 35px rgba(212,175,55,0.5);
+  }
+   
+  /* Медиа */
+  .review-media img,
+  .review-media video {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    display: block;
+  }
+   
+  /* Видео-перекрытие */
+  .play-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(26,15,8,0.4);
+    transition: background 0.4s ease;
+    cursor: pointer;
+  }
+  .play-button {
+    background: rgba(212,175,55,0.9);
+    color: #1a0f08;
+    font-size: 2.2rem;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 20px rgba(212,175,55,0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .play-overlay:hover .play-button {
+    transform: scale(1.1);
+    box-shadow: 0 0 30px rgba(255,235,150,0.6);
+  }
+   
+  /* Текст */
+  .review-content {
+    padding: 25px 20px;
+    color: #f9ebd2;
+  }
+  .review-content h3 {
+    color: #f1d6a1;
+    font-size: 1.4rem;
+    margin-bottom: 5px;
+  }
+  .review-content p {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: #f8e6c8;
+  }
+   
+  /* Звёзды */
+  .stars {
+    color: #d4af37;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+  }
+
+/* ----------- */
+
+/* footer */
+.footer {
+    background: linear-gradient(to top, #1a0f08 0%, #2a190d 100%);
+    color: #715024;
+    padding: 60px 20px 30px;
+    font-family: "Cormorant Garamond", serif;
+    text-align: center;
+    border-top: 1px solid rgba(212, 152, 55, 0.2);
+    box-shadow: 0 -5px 25px rgba(0,0,0,0.3);
+    position: relative;
+  }
+   
+  .footer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 70%;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(212,175,55,0.4), transparent);
+    transform: translateX(-50%);
+  }
+   
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-bottom: 40px;
+    gap: 30px;
+  }
+   
+  .footer h3 {
+    font-size: 2rem;
+    color: #f1d6a1;
+    margin-top: 50px;
+    text-shadow: 0 0 15px rgba(241,214,161,0.3);
+  }
+   
+  .footer h4 {
+    font-size: 1.3rem;
+    color: #d4af37;
+    margin-bottom: 12px;
+  }
+   
+  .footer p {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #f8e8c8;
+    margin: 5px 0;
+  }
+   
+  /* Нижняя часть футера */
+  .footer-bottom {
+    border-top: 1px solid rgba(212,175,55,0.2);
+    padding-top: 20px;
+    color: #e3d5b5;
+    font-size: 0.95rem;
+  }
+   
+  .footer-quote {
+    font-style: italic;
+    color: #d4af37;
+    margin-top: 5px;
+    font-size: 1.05rem;
+    text-shadow: 0 0 10px rgba(212,175,55,0.3);
+  }
+   
+  /* Hover эффект на контактах */
+  .footer-contacts p:hover {
+    color: #f1d6a1;
+    text-shadow: 0 0 10px rgba(241,214,161,0.3);
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+  }
+   
+  /* Адаптивность */
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  }
+   /* Кнопка "вверх" */
+.scroll-top {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    width: 55px;
+    height: 55px;
+    border: none;
+    border-radius: 50%;
+    background: radial-gradient(circle at center, #d4af37 0%, #b88a2c 100%);
+    color: #1a0f08;
+    font-size: 1.8rem;
+    cursor: pointer;
+    box-shadow: 0 0 25px rgba(212,175,55,0.4);
+    transition: all 0.4s ease;
+    display: none; /* изначально скрыта */
+    z-index: 999;
+  }
+   
+  .scroll-top:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 35px rgba(255,235,150,0.6);
+  }
+   
+  /* Плавное появление */
+  .scroll-top.show {
+    display: block;
+    animation: fadeIn 0.6s ease;
+  }
+   
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(15px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+   
+   
